@@ -30,4 +30,4 @@ then
    TARGET="--target $8"
 fi
 
-docker buildx build --platform $1 $PUSH $LOAD $TAGS $BUILD_ARGS $TARGET -f $4 .
+docker buildx build --platform $1 $PUSH $LOAD $TAGS $BUILD_ARGS $TARGET $4
